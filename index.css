@@ -1,8 +1,8 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
-   
-    font-weight: bold;
-    color: white;
+    font-size: medium;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 .box{
@@ -22,13 +22,7 @@ h1 {
     font-style: bold;
 }
 
-/* 
-3. Style the button according to the provided design
-text color - #016f32
-width      - 150px
-background - goldenrod
- */
- 
+
 button {
     color: #ffffff;
     width: 150px;
