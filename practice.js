@@ -1,17 +1,89 @@
 let firstcard = 16
-let secondcard = 5
+let secondcard = 5 +6
 let sum = firstcard + secondcard
-
+let hasBlackJack = false
+let isAlive = true
+// 1. Declare a variable called message and assign its value to an empty string
+let message =""
 if(sum <= 20){
-    console.log("Do you want to draw a new card? 🙂")
+    message = "Do you want to draw a new card? 🙂"
 }
 else if(sum === 21){
-    console.log("Wohoo! You've got Blackjack! 🥳")
+    message = "Wohoo! You've got Blackjack! 🥳"
+    hasBlackJack = true
 }
 else {
-    console.log("You're out of the game! 😭")
+    message = "You're out of the game! 😭"
+    isAlive = false
 }
+// console.log(hasBlackJack)
+// console.log(isAlive)
 
+console.log(message)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// console.log(5 > 2)    // true
+// console.log(12 > 12)  // false
+// console.log(3 < 0)    // false
+// console.log(3 >= 3)   // true
+// console.log(11 <= 11) // true
+// console.log(3 <= 2)   //false
 
 
 
